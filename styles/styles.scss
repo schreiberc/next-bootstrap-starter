@@ -1,0 +1,26 @@
+$black:#231F20;
+$dark-gray:#38434E;
+$gray:#7D858C;
+$light-gray:#D0D2D3;
+
+$baby-blue:#A0C3D9;
+$dark-blue:#005983;
+$light-blue:#f3f6fb;
+
+$theme-colors: (primary:$dark-blue,
+	secondary:$light-blue);
+
+// Global Styles
+@import "bootstrap/scss/bootstrap";
+@import 'typography';
+@import 'buttons';
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+//Page Styles
+@import 'home';
